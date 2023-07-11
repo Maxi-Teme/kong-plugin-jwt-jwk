@@ -12,4 +12,4 @@ services:
     plugins:
       - name: jwt-jwk
         config:
-          jwks_url: https://jour.public.jwks.url/oauth/v1/keys
+          jwks_url: https://auth.dev.peoplesmarkets.com/oauth/v2/keys

@@ -1,3 +1,4 @@
-go/jwt-jwk
-go/go.sum
-go/run.sh
+jwt-jwk
+kong-plugin-jwt-jwk
+go.sum
+run.sh

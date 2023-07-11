@@ -1,10 +1,6 @@
 # kong-plugin-jwt-jwk
 
-## Lua
-
 ## Go
-
-from go/ directory
 
 ```sh
 docker build -t kong-jwt-jwk .
@@ -30,5 +26,3 @@ docker run --rm --name kong-example \
   -p 127.0.0.1:8001:8001 \
   kong-jwt-jwk
 ```
-
-sadly no obvious caching available

@@ -1,0 +1,15 @@
+_format_version: "3.0"
+services:
+  - name: example-service-1
+    url: https://example.com
+    routes:
+      - name: example-url-1
+        protocols:
+          - "http"
+          - "https"
+        paths:
+          - /
+    plugins:
+      - name: jwt-jwk
+        config:
+          jwks_url: https://jour.public.jwks.url/oauth/v1/keys
